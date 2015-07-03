@@ -11,10 +11,10 @@ body{
 .navbar a.navbar-brand {
   background-image: url("http://www.wiconnect.ca/wp-content/uploads/2012/01/logo-2.png");
   background-size: cover;
-  width: 130px;
-  height: 50px;
+  position: absolute;
+  height: 149px;
+  width: 346px;
 }
-
 
 .carousel-inner img {
   margin: 0 auto;
@@ -24,9 +24,32 @@ body{
     background-image: none
 }
 
+@media (min-width: 768px) {
+  .navbar {
+    min-height:80px;
+    margin-bottom: 65px;
+  }
+
+  .navbar > .container > .navbar-collapse {
+    margin-left: 346px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    height: 80px;
+    padding-top: 30px;
+  }
+  .navbar-form .form-group  {
+    padding-top: 15px;
+  }
+}
+
 .navbar-default {
-  background-color: #00b635;
-  border-color: #57fb80;
+  /*background-color: #00b635;
+  #27ae60 #2ecc71
+  border-color: #57fb80;*/
+  background: linear-gradient(to bottom, #2ecc71, #27ae60);
+  background: -webkit-linear-gradient(to bottom, #2ecc71, #27ae60);
+  background: -moz-linear-gradient(to bottom, #2ecc71, #27ae60);
+  background: -o-linear-gradient(to bottom, #2ecc71, #27ae60);
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
@@ -99,5 +122,13 @@ body{
   .navbar-form .form-group .form-control {
     width: 85%;
     display: inline-block;
+  }
+  .navbar-right .social-media-buttons {
+    display: inline-block;
+  }
+
+  .navbar a.navbar-brand {
+    width: 130px;
+    height: 50px;
   }
 }

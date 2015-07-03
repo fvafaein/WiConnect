@@ -44,7 +44,6 @@ body{
 
 .navbar-default {
   /*background-color: #00b635;
-  #27ae60 #2ecc71
   border-color: #57fb80;*/
   background: linear-gradient(to bottom, #2ecc71, #27ae60);
   background: -webkit-linear-gradient(to bottom, #2ecc71, #27ae60);

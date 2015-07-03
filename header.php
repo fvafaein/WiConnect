@@ -42,9 +42,9 @@
       </form>
       <ul class="nav navbar-nav navbar-right">
         
-        <li><a href="#"><span class="fa fa-twitter"></span></a></span></li>
-        <li><a href="#"><span class="fa fa-linkedin"></span></a></span></li>
-        <li><a href="#"><span class="fa fa-facebook"></span></a></span></li>
+        <li class="social-media-buttons"><a href="#"><span class="fa fa-twitter"></span></a></span></li>
+        <li class="social-media-buttons"><a href="#"><span class="fa fa-linkedin"></span></a></span></li>
+        <li class="social-media-buttons"><a href="#"><span class="fa fa-facebook"></span></a></span></li>
         <li><a href="contactus.php">Contact Us</a></li>
 
       </ul>

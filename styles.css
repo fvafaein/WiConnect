@@ -2,19 +2,18 @@ body{
 	background-color: #DAEDFF;
 }
 
-.navbar .brand {
-max-height: 40px;
-padding-top: 0;
-padding-bottom: 0;
-}
-
 .navbar .nav > li > a, .navbar .nav > li > a:first-letter,
 .navbar .nav > li.current-menu-item > a, 
 .navbar .nav > li.current-menu-ancestor > a {
 	font-style:bold;
 }
 
-.navbar a.navbar-brand {padding: 9px 15px 8px; }
+.navbar a.navbar-brand {
+  background-image: url("http://www.wiconnect.ca/wp-content/uploads/2012/01/logo-2.png");
+  background-size: cover;
+  width: 130px;
+  height: 50px;
+}
 
 
 .carousel-inner img {
@@ -96,5 +95,9 @@ padding-bottom: 0;
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #4f4f4f;
     background-color: #57fb80;
+  }
+  .navbar-form .form-group .form-control {
+    width: 85%;
+    display: inline-block;
   }
 }
